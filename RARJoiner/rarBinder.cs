@@ -62,7 +62,7 @@ namespace RARJoiner{
         }
 
         private void githubOpen_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) {
-
+            System.Diagnostics.Process.Start("https://github.com/XeliteXirish/RARBinder");
         }
     }
 }
