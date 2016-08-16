@@ -2,4 +2,4 @@ language: csharp
 solution: RARBinder.sln
 install:
   - sudo apt-get install -y gtk-sharp2
-  - nuget RARBinder.sln
+  - nuget restore RARBinder.sln
